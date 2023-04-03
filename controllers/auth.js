@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
 const firebase = require('firebase');
 
-
+////REGISTRO DE USUARIOS
 async function registrarUsuario(req, res) {
     const data = {
         email: req.body.email,
