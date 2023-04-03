@@ -10,7 +10,7 @@ const firebaseConfig = {
     measurementId: "G-FHKJ0DRC2D"
   };
 
-
+///CONEXION FIREBASE
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 const user = db.collection('user');
