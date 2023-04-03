@@ -1,6 +1,6 @@
 const product = require("../config/config-credenciales");
 const   where = require("firebase/firestore");
- 
+ /////PRODUCTOS
 async function obtenerProducts(req, res) {
     try {
         const _product = await product.get();
