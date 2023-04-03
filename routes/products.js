@@ -1,7 +1,7 @@
 const express  = require('express');
 const app = express();
 const ctrlProducts = require('../controllers/products')
-
+/////METODOS DE ENVIO PARA PRODUCTOS
 app.get("/", ctrlProducts.obtenerProducts);
 
 app.get("/:id", ctrlProducts.obtenerProductId);
